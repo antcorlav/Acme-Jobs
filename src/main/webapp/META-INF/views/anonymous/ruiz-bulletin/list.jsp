@@ -1,5 +1,5 @@
 <%--
-- banner.jsp
+- list.jsp
 -
 - Copyright (c) 2019 Rafael Corchuelo.
 -
@@ -8,7 +8,6 @@
 - this software. It has been tested carefully, but it is not guaranteed for any particular
 - purposes.  The copyright owner does not offer any warranties or representations, nor do
 - they accept any liabilities with respect to them.
-<acme:message code='master.banner.background'/>">
 --%>
 
 <%@page language="java"%>
@@ -16,7 +15,9 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
-<div class="rounded" style="background: <acme:message code='master.banner.background'/>">
-	<img src="images/banner.png" alt="Acme Jobs, Inc." class="img-fluid rounded"/>
-</div>
+<acme:list readonly="true">
+<acme:list-column code="anonymous.ruiz-bulletin.list.label.moment" path="moment" width="20%"/>
+<acme:list-column code="anonymous.ruiz-bulletin.list.label.job" path="job" width="20%"/>
+<acme:list-column code="anonymous.ruiz-bulletin.list.label.company" path="company" width="60%"/>
 
+</acme:list>
