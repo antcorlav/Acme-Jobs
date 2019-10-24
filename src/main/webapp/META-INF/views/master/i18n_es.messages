@@ -10,13 +10,13 @@
 
 # master.banner.welcome #######################################################
 
-master.banner.background = #FFE97F 
+master.banner.background = #c4eede
 
 ﻿# master.welcome ##############################################################
 
 master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
-	Bienvenidos a Acme Stater!  Nunca antes ha sido tan sencillo desarrollar un \
+	Bienvenidos a Acme Jobs!  Nunca antes ha sido tan sencillo desarrollar un \
 	proyecto y hacerlo funcionar.
 
 # master.menu #################################################################
@@ -30,6 +30,26 @@ master.menu.sign-out = Salir
 
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.favourite-linkJ = Enlace de Josruialb
+master.menu.anonymous.favourite-linkV = Enlace de Viclopvaz1
+master.menu.anonymous.favourite-linkA = Enlace de Albcorare26
+master.menu.anonymous.favourite-linkD = Enlace de dansangar2
+master.menu.anonymous.favourite-linkAC = Enlace de Antcorlav
+master.menu.anonymous.shout = Grito
+master.menu.anonymous.list-shout = Lista de gritos 
+
+# master.menu.anonymous2 #######################################################
+master.menu.anonymous2 = Boletines
+master.menu.anonymous2.lopez-bulletin = Boletin de Lopez
+master.menu.anonymous2.list-lopez-bulletin = Lista de Boletines de Lopez
+master.menu.anonymous2.corredera-bulletin = Boletin de Corredera
+master.menu.anonymous2.list-corredera-bulletin = Lista de Boletines de Corredera
+master.menu.anonymous2.cordon-bulletin = Boletin de Cordon!
+master.menu.anonymous2.list-cordon-bulletin = Lista de Boletines de Cordon!
+master.menu.anonymous2.sanjose-bulletin = Boletin de SanJose
+master.menu.anonymous2.list-sanjose-bulletin = Lista de Boletines SanJose
+master.menu.anonymous2.ruiz-bulletin = Boletin de Ruiz
+master.menu.anonymous2.list-ruiz-bulletin = Lista de Bolletines Ruiz
 
 # master.menu.administrator ###################################################
 
@@ -41,11 +61,20 @@ master.menu.administrator.shutdown = Parar el sistema
 
 master.menu.provider = Proveedor
 master.menu.provider.favourite-link = Enlace favorito
+master.menu.provider.favourite-linkJ = Enlace de Josruialb
+master.menu.provider.favourite-linkV = Enlace de Viclopvaz1
+master.menu.provider.favourite-linkA = Enlace de Albcorare26
+master.menu.provider.favourite-linkD = Enlace de dansangar2
+master.menu.provider.favourite-linkAC = Enlace de Antcorlav
 
 # master.menu.consumer ##########################################################
 
 master.menu.consumer = Consumidor
 master.menu.consumer.favourite-link = Enlace favorito
+master.menu.consumer.favourite-linkJ = Enlace de Josruialb
+master.menu.consumer.favourite-linkV = Enlace de Viclopvaz1
+master.menu.consumer.favourite-linkA = Enlace de Albcorare26
+master.menu.consumer.favourite-linkAC = Enlace de Antcorlav
 
 # master.menu.user-account ####################################################
 
@@ -72,10 +101,10 @@ master.footer.label.spanish = Español
 
 master.company.title = La compañía
 master.company.text = \
-	Starter Project, Inc. es una compañía fictícia que proporciona un proyecto \
+	Acme Jobs, Inc. es una compañía fictícia que proporciona un proyecto \
 	plantilla para los estudiantes de la asignatura Diseño y Pruebas, en el Grado \
 	en Ingeniería del Software de la Universidad de Sevilla.
-master.company.name = Starter Project, Inc.
+master.company.name = Acme Jobs, Inc.
 master.company.address = Calle, número, Ciudad, Estado, País
 master.company.phone = +000 123 456
 master.company.email = contact@acme.com

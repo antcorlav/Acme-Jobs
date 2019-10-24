@@ -1,5 +1,5 @@
 <%--
-- banner.jsp
+- form.jsp
 -
 - Copyright (c) 2019 Rafael Corchuelo.
 -
@@ -8,7 +8,6 @@
 - this software. It has been tested carefully, but it is not guaranteed for any particular
 - purposes.  The copyright owner does not offer any warranties or representations, nor do
 - they accept any liabilities with respect to them.
-<acme:message code='master.banner.background'/>">
 --%>
 
 <%@page language="java"%>
@@ -16,7 +15,11 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
-<div class="rounded" style="background: <acme:message code='master.banner.background'/>">
-	<img src="images/banner.png" alt="Acme Jobs, Inc." class="img-fluid rounded"/>
-</div>
+<acme:form>
+	<acme:form-textbox code="anonymous.sanjose-bulletin.label.name" path="name"/>
+	<acme:form-textbox code="anonymous.sanjose-bulletin.label.secondname" path="secondname"/>
+	<acme:form-textbox code="anonymous.sanjose-bulletin.label.company" path="company"/>
 
+	<acme:form-submit code="anonymous.sanjose-bulletin.form.button.create" action="/anonymous/sanjose-bulletin/create"/>
+  	<acme:form-return code="anonymous.sanjose-bulletin.form.button.return"/>
+</acme:form>
