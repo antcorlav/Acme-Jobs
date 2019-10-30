@@ -17,4 +17,61 @@
 
 	<import resource="conversion-service.xml" />
 
+
+
+<bean id = "offer01" class = "acme.entities.offers.Offer">
+<property name= "title" value= "Offer1"/>
+<property name= "text" value= "Viva mi beti 2.0"/>
+<property name= "moment" value= "2019/09/09 10:00"/>
+<property name= "deadline" value= "2039/09/09 10:00"/>
+<property name= "ticker" value= "OABCD-00001"/>
+<property name= "rewardMax" value= "1300.0€"/>
+<property name= "rewardMin" value= "850.0€"/>
+</bean>
+
+<bean id = "offer02" class = "acme.entities.offers.Offer">
+<property name= "title" value= "Offer2"/>
+<property name= "text" value= "Viva mi beti 2.0"/>
+<property name= "moment" value= "2019/09/09 10:00"/>
+<property name= "deadline" value= "2039/09/09 10:00"/>
+<property name= "ticker" value= "OABCD-00002"/>
+<property name= "rewardMax" value= "1000.0€"/>
+<property name= "rewardMin" value= "750.0€"/>
+
+</bean>
+
+<bean id = "offer03" class = "acme.entities.offers.Offer">
+<property name= "title" value= "Offer3"/>
+<property name= "text" value= "Viva mi beti 3.0"/>
+<property name= "moment" value= "2019/09/09 10:00"/>
+<property name= "deadline" value= "2018/08/08 10:00"/>
+<property name= "ticker" value= "OABCD-00003"/>
+<property name= "rewardMax" value= "1500.0€"/>
+<property name= "rewardMin" value= "1050.0€"/>
+</bean>
+
+<bean id = "request01" class = "acme.entities.solicitudes.Solicitud">
+<property name= "title" value= "Request001"/>
+<property name= "text" value= "Viva mi beti"/>
+<property name= "moment" value= "2019/09/09 10:00"/>
+<property name= "deadline" value= "2019/09/09 10:00"/>
+<property name= "ticker" value= "RABCD-00001"/>
+<property name= "reward" value= "500.0€"/>
+
+
+
+</bean>
+
+<bean id = "request02" class = "acme.entities.solicitudes.Solicitud">
+<property name= "title" value= "Request002"/>
+<property name= "text" value= "Viva mi beti 2.0"/>
+<property name= "moment" value= "2019/09/09 10:00"/>
+<property name= "deadline" value= "2039/09/09 10:00"/>
+<property name= "ticker" value= "RABCD-00002"/>
+<property name= "reward" value= "500.0€"/>
+</bean>
+
+
+
 </beans>
+

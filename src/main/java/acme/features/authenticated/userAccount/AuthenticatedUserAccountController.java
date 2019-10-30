@@ -32,12 +32,14 @@ public class AuthenticatedUserAccountController extends AbstractController<Authe
 	@Autowired
 	private AuthenticatedUserAccountUpdateService updateService;
 
-
 	// Constructors -----------------------------------------------------------
+
 
 	@PostConstruct
 	private void initialise() {
+
 		super.addBasicCommand(BasicCommand.UPDATE, this.updateService);
+
 	}
 
 }

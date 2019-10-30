@@ -29,12 +29,93 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `cordon_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `company` varchar(255),
+        `description` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `corredera_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `fundador` varchar(255),
+        `nombre` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `lopez_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `descripcion` varchar(255),
+        `dni` varchar(255),
+        `nombre` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `offer` (
+       `id` integer not null,
+        `version` integer not null,
+        `deadline` datetime(6),
+        `moment` datetime(6),
+        `reward_max_amount` double precision,
+        `reward_max_currency` varchar(255),
+        `reward_min_amount` double precision,
+        `reward_min_currency` varchar(255),
+        `text` varchar(255),
+        `ticker` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
         `company` varchar(255),
         `sector` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `ruiz_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `company` varchar(255),
+        `job` varchar(255),
+        `moment` datetime(6),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `sanjose_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `company` varchar(255),
+        `name` varchar(255),
+        `secondname` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `shout` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `moment` datetime(6),
+        `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `solicitud` (
+       `id` integer not null,
+        `version` integer not null,
+        `deadline` datetime(6),
+        `moment` datetime(6),
+        `reward_amount` double precision,
+        `reward_currency` varchar(255),
+        `text` varchar(255),
+        `ticker` varchar(255),
+        `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 

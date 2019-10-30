@@ -17,6 +17,14 @@ authenticated.user-account.form.label.name = Nombre:
 authenticated.user-account.form.label.surname = Apellidos:
 authenticated.user-account.form.label.email = E-mail:
  
+ 
+ authenticated.user-account.list.label.ticker= Identificador
+authenticated.user-account.list.label.reward=  Recompensa
+authenticated.user-account.list.label.deadline= Fecha vencimiento
+authenticated.user-account.list.label.moment= Fecha publicacion
+authenticated.user-account.list.label.text= Texto 
+authenticated.user-account.list.label.title= Titulo
+ 
 authenticated.user-account.form.button.update = Actualizar
 authenticated.user-account.form.button.return = Volver
 

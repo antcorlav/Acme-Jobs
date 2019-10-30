@@ -16,6 +16,13 @@ authenticated.user-account.form.label.confirmation = Confirmation:
 authenticated.user-account.form.label.name = Name:
 authenticated.user-account.form.label.surname = Surname:
 authenticated.user-account.form.label.email = Email:
+
+authenticated.user-account.list.label.ticker= Ticker
+authenticated.user-account.list.label.reward= Reward 
+authenticated.user-account.list.label.deadline= Deadline
+authenticated.user-account.list.label.moment= Moment
+authenticated.user-account.list.label.text= Text
+authenticated.user-account.list.label.title= Title
  
 authenticated.user-account.form.button.update = Update
 authenticated.user-account.form.button.return = Return
