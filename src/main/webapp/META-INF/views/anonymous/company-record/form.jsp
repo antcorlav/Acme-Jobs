@@ -16,16 +16,15 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form readonly="true">
-	<acme:form-textbox code="anonymous.company-record.label.name" path="name"/>
-	<acme:form-textbox code="anonymous.company-record.label.sector" path="sector"/>
-	<acme:form-textbox code="anonymous.company-record.label.ceo" path="ceo"/>
-<%-- <acme:form-textarea code="anonymous.company-record.label.indication" path="indication"/> --%>
-	<acme:form-url code="anonymous.company-record.label.webSite" path="website"/>
-<%-- <acme:form-textbox code="anonymous.company-record.label.prefix" path="prefix"/>
-	<acme:form-textbox code="anonymous.company-record.label.areaCode" path="areaCode"/>--%>	
-	<acme:form-textbox code="anonymous.company-record.label.phone" path="phone"/>
-	<acme:form-textbox code="anonymous.company-record.label.email" path="email"/>
-	<acme:form-textbox code="anonymous.company-record.label.indication" path="indication"/>
+	<acme:form-textbox code="anonymous.company-record.form.name" path="name"/>
+	<acme:form-textbox code="anonymous.company-record.form.sector" path="sector"/>
+	<acme:form-textbox code="anonymous.company-record.form.ceo" path="ceo"/>
+<%-- <acme:form-textarea code="anonymous.company-record.form.indication" path="indication"/> --%>
+	<acme:form-url code="anonymous.company-record.form.webSite" path="website"/>
+<%-- <acme:form-textbox code="anonymous.company-record.form.prefix" path="prefix"/>
+	<acme:form-textbox code="anonymous.company-record.form.areaCode" path="areaCode"/>--%>	
+	<acme:form-textbox code="anonymous.company-record.form.phone" path="phone"/>
+	<acme:form-textbox code="anonymous.company-record.form.email" path="email"/>
 
   	<acme:form-return code="anonymous.company-record.form.button.return"/>
 </acme:form>
