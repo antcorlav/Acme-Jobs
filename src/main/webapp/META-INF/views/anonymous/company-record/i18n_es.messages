@@ -13,14 +13,10 @@ anonymous.company-record.form.sector = Sector:
 anonymous.company-record.form.ceo = CEO:
 anonymous.company-record.form.description = Descripcion:
 anonymous.company-record.form.webSite = WebSite:
-#anonymous.company-record.form.prefix = Prefijo:
-#anonymous.company-record.form.areaCode = AreaCode:
 anonymous.company-record.form.phone = Telefono:
 anonymous.company-record.form.email = Email:
 
 anonymous.company-record.label.name = Nombre
 anonymous.company-record.label.sector = Sector
 anonymous.company-record.label.ceo = CEO
-#anonymous.company-record.label.prefix = Prefijo
-#anonymous.company-record.label.areaCode = AreaCode
 anonymous.company-record.form.button.return = Volver
