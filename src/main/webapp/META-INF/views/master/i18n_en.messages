@@ -118,6 +118,17 @@ master.menu.user-account.become-provider = Become a provider
 master.menu.user-account.consumer = Consumer data
 master.menu.user-account.become-consumer = Become a consumer
 
+
+# master.menu.authenticated ####################################################
+master.menu.authenticated = Authenticated
+
+# master.menu.solicitud ####################################################
+
+master.menu.solicitud.list-solicitud= List of requests
+
+# master.menu.solicitud ####################################################
+master.menu.offer.list-offer= List of offers
+
 # master.footer ###############################################################
 
 master.footer.title.about = About us

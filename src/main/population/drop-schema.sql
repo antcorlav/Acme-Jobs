@@ -37,9 +37,14 @@
 
     drop table if exists `corredera_bulletin`;
 
+    drop table if exists `lopez_bulletin`;
+
+    drop table if exists `offer`;
+
     drop table if exists `investor_record`;
 
     drop table if exists `lopez_bulletin`;
+
 
     drop table if exists `provider`;
 
@@ -48,6 +53,11 @@
     drop table if exists `sanjose_bulletin`;
 
     drop table if exists `shout`;
+
+
+    drop table if exists `solicitud`;
+
+=======
 
     drop table if exists `user_account`;
 

@@ -86,6 +86,29 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+
+    create table `lopez_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `descripcion` varchar(255),
+        `dni` varchar(255),
+        `nombre` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `offer` (
+       `id` integer not null,
+        `version` integer not null,
+        `deadline` datetime(6),
+        `moment` datetime(6),
+        `reward_max_amount` double precision,
+        `reward_max_currency` varchar(255),
+        `reward_min_amount` double precision,
+        `reward_min_currency` varchar(255),
+        `text` varchar(255),
+        `ticker` varchar(255),
+        `title` varchar(255),
+
     create table `investor_record` (
        `id` integer not null,
         `version` integer not null,
@@ -102,6 +125,7 @@
         `descripcion` varchar(255),
         `dni` varchar(255),
         `nombre` varchar(255),
+
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -140,6 +164,21 @@
         `text` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
+
+
+    create table `solicitud` (
+       `id` integer not null,
+        `version` integer not null,
+        `deadline` datetime(6),
+        `moment` datetime(6),
+        `reward_amount` double precision,
+        `reward_currency` varchar(255),
+        `text` varchar(255),
+        `ticker` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
 
     create table `user_account` (
        `id` integer not null,
