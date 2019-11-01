@@ -30,16 +30,17 @@
             <acme:menu-suboption code="master.menu.anonymous.favourite-linkV" action="https://www.twitch.tv"/> <%--viclopvaz1--%>
             <acme:menu-suboption code="master.menu.anonymous.favourite-linkA" action="https://www.youtube.com/?hl=es&gl=ES"/> <%--albcorare26--%>
             <acme:menu-suboption code="master.menu.anonymous.favourite-linkD" action="https://smashbros.com/es_ES/"/> <%--dnsangar2--%>
-             <acme:menu-suboption code="master.menu.anonymous.favourite-linkAC" action="https://open.spotify.com/browse/featured"/> <%--antcorlav--%>
-             
-             <acme:menu-separator />
+
+		 <acme:menu-separator />
+			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create" />
+			<acme:menu-suboption code="master.menu.anonymous.list-shout" action="/anonymous/shout/list" />		
+		<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.list-announcement" action="/anonymous/announcement/list"/>	
+			
+		<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.list-company-record" action="/anonymous/company-record/list"/>		
 		</acme:menu-option>
 		
-		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
-		<acme:menu-suboption code="master.menu.solicitud.list-solicitud" action="/authenticated/solicitud/list" />		
-		<acme:menu-suboption code="master.menu.offer.list-offer" action="/authenticated/offer/list" />		
-		
-				</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.anonymous2" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous2.lopez-bulletin" action="/anonymous/lopez-bulletin/create" />
@@ -58,13 +59,28 @@
 			<acme:menu-separator />
 			
 			<acme:menu-suboption code="master.menu.anonymous2.sanjose-bulletin" action="/anonymous/sanjose-bulletin/create" />
-			<acme:menu-suboption code="master.menu.anonymous2.list-sanjose-bulletin" action="/anonymous/sanjose-bulletin/list" />
+			<acme:menu-suboption code="master.menu.anonymous2.list-sanjose-bulletin" action="/anonymous/sanjose-bulletin/list" />  
+			
       
       <acme:menu-separator />
 		
 			<acme:menu-suboption code="master.menu.anonymous2.ruiz-bulletin" action="/anonymous/ruiz-bulletin/create" />
 			<acme:menu-suboption code="master.menu.anonymous2.list-ruiz-bulletin" action="/anonymous/ruiz-bulletin/list" />
+			
+			
 		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.anonymousinvestor" access="isAnonymous()">
+		
+			<acme:menu-suboption code="master.menu.anonymousinvestor.list-investor-record" action="/anonymous/investor-record/list" />
+			
+		</acme:menu-option>
+  
+  	<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
+		<acme:menu-suboption code="master.menu.solicitud.list-solicitud" action="/authenticated/solicitud/list" />		
+		<acme:menu-suboption code="master.menu.offer.list-offer" action="/authenticated/offer/list" />		
+		
+				</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
@@ -74,6 +90,35 @@
 
 	
 
+<
+		<acme:menu-option code="master.menu.consumer" access="hasRole('Consumer')">
+			<acme:menu-suboption code="master.menu.consumer.favourite-link" action="http://www.example.com/"/>
+			<acme:menu-suboption code="master.menu.consumer.favourite-linkJ" action="https://play.pokemonshowdown.com"/> <%--josruialb--%>
+			<acme:menu-suboption code="master.menu.consumer.favourite-linkV" action="https://www.twitch.tv"/> <%--viclopvaz1--%>	
+			<acme:menu-suboption code="master.menu.consumer.favourite-linkA" action="https://www.youtube.com/?hl=es&gl=ES"/> <%--albcorare26--%>
+			<acme:menu-suboption code="master.menu.consumer.favourite-linkD" action="https://smashbros.com/es_ES/"/> <%--dnsangar2--%>
+			<acme:menu-suboption code="master.menu.consumer.favourite-linkAC" action="https://open.spotify.com/browse/featured"/> <%--antcorlav--%>
+		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.authenticatedannoun" access="isAuthenticated()">
+			<acme:menu-suboption code="master.menu.authenticatedannoun.list-announcement" action="/authenticated/announcement/list" />
+		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.authenticatedcompany" access="isAuthenticated()">
+			<acme:menu-suboption code="master.menu.authenticatedcompany.list-company-record" action="/authenticated/company-record/list" />
+		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.authenticatedinvestor" access="isAuthenticated()">
+			<acme:menu-suboption code="master.menu.authenticatedinvestor.list-investor-record" action="/authenticated/investor-record/list" />
+		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.authenticatedchallenge" access="isAuthenticated()">
+			<acme:menu-suboption code="master.menu.authenticated.list-challenge" action="/authenticated/challenge/list"/>
+		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.administratorannoun" access="hasRole('Administrator')">
+			<acme:menu-suboption code="master.menu.administratorannoun.list-announcement" action="/administrator/announcement/list" />
+		</acme:menu-option>
 
 	</acme:menu-left>
 
@@ -99,6 +144,7 @@
 
 
 		<acme:menu-option code="master.menu.sign-out" action="/master/sign-out" access="isAuthenticated()"/>
+		
 	</acme:menu-right>
 </acme:menu-bar>
 

@@ -37,6 +37,8 @@ master.menu.anonymous.favourite-linkD = Enlace de dansangar2
 master.menu.anonymous.favourite-linkAC = Enlace de Antcorlav
 master.menu.anonymous.shout = Grito
 master.menu.anonymous.list-shout = Lista de gritos 
+master.menu.anonymous.list-announcement = Lista de Anuncios
+master.menu.anonymous.list-company-record = Lista de Compañias
 
 # master.menu.anonymous2 #######################################################
 master.menu.anonymous2 = Boletines
@@ -51,11 +53,40 @@ master.menu.anonymous2.list-sanjose-bulletin = Lista de Boletines SanJose
 master.menu.anonymous2.ruiz-bulletin = Boletin de Ruiz
 master.menu.anonymous2.list-ruiz-bulletin = Lista de Bolletines Ruiz
 
+# master.menu.anonymousinvestor ######################################################
+master.menu.anonymousinvestor = Records de inversores
+master.menu.anonymousinvestor.investor-record = Records
+master.menu.anonymousinvestor.list-investor-record = Lista de Records
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
+
+# master.menu.authenticatedannoun ######################################################
+master.menu.authenticatedannoun = Anuncios
+master.menu.authenticatedannoun.announcement = Anuncios
+master.menu.authenticatedannoun.list-announcement = Lista de anuncios
+
+# master.menu.administratorannoun ######################################################
+master.menu.administratorannoun = Anuncios(Todos)
+master.menu.administratorannoun.announcement =todos los anuncios
+master.menu.administratorannoun.list-announcement = Lista de todos anuncios
+
+# master.menu.authenticatedcompany ######################################################
+master.menu.authenticatedcompany = Compañías
+master.menu.authenticatedcompany.company-record = Compañías
+master.menu.authenticatedcompany.list-company-record = Lista de Compañías
+
+# master.menu.authenticatedinvestor ######################################################
+master.menu.authenticatedinvestor = Records de inversores
+master.menu.authenticatedinvestor.investor-record = Records
+master.menu.authenticatedinvestor.list-investor-record = Lista de Records
+
+# master.menu.authenticatedchallenge ######################################################
+master.menu.authenticatedchallenge = Retos
+master.menu.authenticated.list-challenge= Lista de Retos
 
 # master.menu.provider ########################################################
 

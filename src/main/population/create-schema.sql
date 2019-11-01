@@ -6,6 +6,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `announcement` (
+       `id` integer not null,
+        `version` integer not null,
+        `moment` datetime(6),
+        `more_info` varchar(255),
+        `text` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `anonymous` (
        `id` integer not null,
         `version` integer not null,
@@ -17,6 +27,36 @@
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `challenge` (
+       `id` integer not null,
+        `version` integer not null,
+        `bronzeg` varchar(255),
+        `bronzer` varchar(255),
+        `description` varchar(255),
+        `goldg` varchar(255),
+        `goldr` varchar(255),
+        `moment` datetime(6),
+        `silverg` varchar(255),
+        `silverr` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `company_record` (
+       `id` integer not null,
+        `version` integer not null,
+        `ceo` varchar(255),
+        `description` varchar(255),
+        `email` varchar(255),
+        `indication` bit,
+        `name` varchar(255),
+        `phone` varchar(255),
+        `sector` varchar(255),
+        `star` integer,
+        `web_site` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -46,6 +86,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+
     create table `lopez_bulletin` (
        `id` integer not null,
         `version` integer not null,
@@ -67,6 +108,24 @@
         `text` varchar(255),
         `ticker` varchar(255),
         `title` varchar(255),
+
+    create table `investor_record` (
+       `id` integer not null,
+        `version` integer not null,
+        `investor` varchar(255),
+        `sector` varchar(255),
+        `star` integer,
+        `statement` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `lopez_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `descripcion` varchar(255),
+        `dni` varchar(255),
+        `nombre` varchar(255),
+
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -106,6 +165,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+
     create table `solicitud` (
        `id` integer not null,
         `version` integer not null,
@@ -118,6 +178,7 @@
         `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
+
 
     create table `user_account` (
        `id` integer not null,
