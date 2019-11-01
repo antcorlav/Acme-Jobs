@@ -16,5 +16,100 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
+	
+	<!--Investor Record-->
+	
+	<bean name="investorrecord01" class="acme.entities.investorrecords.InvestorRecord">
+		<property name="investor" value="Daniel García" />
+		<property name="sector" value="Tecnology" />
+		<property name="statement" value="This is a example" />
+		<property name="star" value="5" />
+	</bean>
+	
+	<bean name="investorrecord02" class="acme.entities.investorrecords.InvestorRecord">
+		<property name="investor" value="Alberto Bache" />
+		<property name="sector" value="Example2" />
+		<property name="statement" value="This is a 2nd example" />
+		<property name="star" value="1" />
+	</bean>
+	
+	<bean name="investorrecord03" class="acme.entities.investorrecords.InvestorRecord">
+		<property name="investor" value="Antonio Lavadero" />
+		<property name="sector" value="Example3" />
+		<property name="statement" value="This is a 3rd example" />
+		<property name="star" value="2" />
+	</bean>
+ 
+ 	<bean id="announcement01" class="acme.entities.announcements.Announcement">
+		<property name="title" value="Sample announcement 01" />
+		<property name="moment" value="2019/11/01 10:35" />
+		<property name="moreInfo"><null/></property>
+		<property name="text" value="This is the description of a sample announcement" />
+	</bean>
+	
+	<bean id="announcement02" class="acme.entities.announcements.Announcement">
+		<property name="title" value="Sample announcement 02" />
+		<property name="moment" value="2019/06/10 00:00" />
+		<property name="moreInfo" value="http://www.example.org" />
+		<property name="text" value="This is the description of a another announcement" />
+	</bean>
+	
+	<bean id="announcement03" class="acme.entities.announcements.Announcement">
+		<property name="title" value="Sample announcement 03" />
+		<property name="moment" value="1900/10/10 19:10" />
+		<property name="moreInfo" value="http://www.example.com" />
+		<property name="text" value="This is a very old announcement" />
+	</bean>
+	
+	<bean id="announcement04" class="acme.entities.announcements.Announcement">
+		<property name="title" value="Sample announcement 04" />
+		<property name="moment" value="2019/10/25 19:10" />
+		<property name="moreInfo" value="http://www.example.com" />
+		<property name="text" value="This is a very old announcement" />
+	</bean>
+	
+	<bean id="announcement05" class="acme.entities.announcements.Announcement">
+		<property name="title" value="Sample announcement 05" />
+		<property name="moment" value="2019/09/29 19:10" />
+		<property name="moreInfo" value="http://www.example.com" />
+		<property name="text" value="This is a very old announcement" />
+	</bean>
 
+	<bean id="companyrecord01" class="acme.entities.companyrecords.CompanyRecord">
+		<property name="name" value="Nintendo" />
+		<property name="sector" value="VideoGames" />
+		<property name="ceo" value="Daniel" />
+		<property name="description" value="This is a videogame company" />
+		<property name="webSite" value="https://www.nintendo.es" />
+		<property name="phone" value="+361 (5123) 456127" />
+		<property name ="email" value="gmail@hotmail.es" />
+		<property name="indication" value="true" />
+		<property name="star" value="3"/>
+	</bean>
+
+	<bean id="companyrecord02" class="acme.entities.companyrecords.CompanyRecord">
+		<property name="name" value="Sony" />
+		<property name="sector" value="VideoGames" />
+		<property name="ceo" value="Julián" />
+		<property name="description" value="Example 2" />
+		<property name="webSite" value="https://www.example.es" />
+		<property name="phone" value="+361 (5123) 456127" />
+		<property name ="email" value="jeje@gmail.com" />
+		<property name="indication" value="false" />
+		<property name="star" value="3"/>
+
+	</bean>
+	
+	<bean id ="challenge01" class="acme.entities.challenges.Challenge">
+	<property name="title" value="titulo1"></property> 
+	<property name="description" value="description1"></property> 
+	<property name="moment" value="2020/02/25 00:00"></property> 
+	<property name="goldR" value="valorrO"></property> 
+	<property name="silverR" value="valorrP"></property> 
+	<property name="bronzeR" value="valorrB"></property> 
+	<property name="goldG" value="valorgO"></property> 
+	<property name="silverG" value="valorgP"></property> 
+	<property name="bronzeG" value="valorgB"></property> 
+	</bean>
+	
 </beans>
