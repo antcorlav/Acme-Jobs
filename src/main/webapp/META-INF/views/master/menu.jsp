@@ -57,11 +57,12 @@
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.configuration" action="/administrator/configuration/list" />			
 		</acme:menu-option>
 
 	
 
-<
 		<acme:menu-option code="master.menu.consumer" access="hasRole('Consumer')">
 			<acme:menu-suboption code="master.menu.consumer.favourite-link" action="http://www.example.com/"/>
 			<acme:menu-suboption code="master.menu.consumer.favourite-linkJ" action="https://play.pokemonshowdown.com"/> <%--josruialb--%>
