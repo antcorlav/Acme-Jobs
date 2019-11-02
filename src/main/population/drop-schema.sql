@@ -11,6 +11,10 @@
        drop 
        foreign key FK_h52w0f3wjoi68b63wv9vwon57;
 
+    alter table `configuration_spam_words` 
+       drop 
+       foreign key `FK5lk29cpqe3960a943x8x8j4yh`;
+
     alter table `consumer` 
        drop 
        foreign key FK_6cyha9f1wpj0dpbxrrjddrqed;
@@ -31,33 +35,21 @@
 
     drop table if exists `company_record`;
 
+    drop table if exists `configuration`;
+
+    drop table if exists `configuration_spam_words`;
+
     drop table if exists `consumer`;
-
-    drop table if exists `cordon_bulletin`;
-
-    drop table if exists `corredera_bulletin`;
-
-    drop table if exists `lopez_bulletin`;
-
-    drop table if exists `offer`;
 
     drop table if exists `investor_record`;
 
-    drop table if exists `lopez_bulletin`;
-
+    drop table if exists `offer`;
 
     drop table if exists `provider`;
 
-    drop table if exists `ruiz_bulletin`;
-
-    drop table if exists `sanjose_bulletin`;
-
     drop table if exists `shout`;
 
-
     drop table if exists `solicitud`;
-
-=======
 
     drop table if exists `user_account`;
 
