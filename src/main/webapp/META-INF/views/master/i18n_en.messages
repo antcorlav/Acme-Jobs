@@ -37,13 +37,23 @@ master.menu.anonymous.favourite-linkD = Favourite link dansangar2
 master.menu.anonymous.favourite-linkAC = Favourite link antcorlav
 master.menu.anonymous.shout = Shout!
 master.menu.anonymous.list-shout = List Shout!
-master.menu.anonymous.list-announcement = List Announcement
-master.menu.anonymous.list-company-record = List Company Record
+
+# master.menu.anonymousannoun ######################################################
+master.menu.anonymousannoun = Announcement
+master.menu.anonymousannoun.announcement = Announcements
+master.menu.anonymousannoun.list-announcement = List of announcements
+
+# master.menu.anonymouscompany ######################################################
+master.menu.anonymouscompany = Company Record
+master.menu.anonymouscompany.investor-record = Records
+master.menu.anonymouscompany.list-company-record = List Company Record
+master.menu.anonymouscompany.listtop-company-record = Tops of Company
 
 # master.menu.anonymousinvestor ######################################################
 master.menu.anonymousinvestor = Investor Record
 master.menu.anonymousinvestor.investor-record = Records
 master.menu.anonymousinvestor.list-investor-record = List Investor Record
+master.menu.anonymousinvestor.listtop-investor-record = Tops of Investor
 
 # master.menu.administrator ###################################################
 
