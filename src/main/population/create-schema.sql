@@ -45,6 +45,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `comercial_banner` (
+       `id` integer not null,
+        `version` integer not null,
+        `credit_card` varchar(255),
+        `picture` varchar(255),
+        `slogan` varchar(255),
+        `target_url` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `company_record` (
        `id` integer not null,
         `version` integer not null,
@@ -88,6 +98,16 @@
         `sector` varchar(255),
         `star` integer,
         `statement` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `non_comercial_banner` (
+       `id` integer not null,
+        `version` integer not null,
+        `jingle` varchar(255),
+        `picture` varchar(255),
+        `slogan` varchar(255),
+        `target_url` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
