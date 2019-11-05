@@ -1,43 +1,43 @@
 
-package acme.features.anonymous.companyrecord;
+package acme.features.anonymous.comercialbanner;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.companyrecords.CompanyRecord;
+import acme.entities.comercialbanners.ComercialBanner;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractShowService;
 
 @Service
-public class AnonymousCompanyRecordShowService implements AbstractShowService<Anonymous, CompanyRecord> {
+public class AnonymousComercialBannerShowService implements AbstractShowService<Anonymous, ComercialBanner> {
 
 	@Autowired
-	AnonymousCompanyRecordRepository repository;
+	AnonymousComercialBannerRepository repository;
 
 
 	@Override
-	public boolean authorise(final Request<CompanyRecord> request) {
+	public boolean authorise(final Request<ComercialBanner> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public void unbind(final Request<CompanyRecord> request, final CompanyRecord entity, final Model model) {
+	public void unbind(final Request<ComercialBanner> request, final ComercialBanner entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "name", "sector", "ceo", "description", "webSite", "phone", "email", "indication", "star");
+		request.unbind(entity, model, "picture", "slogan", "targetUrl", "creditCard");
 	}
 
 	@Override
-	public CompanyRecord findOne(final Request<CompanyRecord> request) {
+	public ComercialBanner findOne(final Request<ComercialBanner> request) {
 		assert request != null;
 
-		CompanyRecord result;
+		ComercialBanner result;
 		int id;
 
 		id = request.getModel().getInteger("id");

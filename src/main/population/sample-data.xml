@@ -137,10 +137,10 @@
 		<property name="ceo" value="Daniel" />
 		<property name="description" value="This is a videogame company" />
 		<property name="webSite" value="https://www.nintendo.es" />
-		<property name="phone" value="+361 (5123) 456127" />
+		<property name="phone" value="+1 (5123) 456127" />
 		<property name ="email" value="gmail@hotmail.es" />
 		<property name="indication" value="true" />
-		<property name="star" value="3"/>
+		<property name="star" value="5"/>
 	</bean>
 
 	<bean id="companyrecord02" class="acme.entities.companyrecords.CompanyRecord">
@@ -187,5 +187,19 @@
 		<property name="spamThreshold" value="1.0"/>
 	</bean>
 
+	<bean id="comercialbanner01" class="acme.entities.comercialbanners.ComercialBanner">
+		<property name="picture" value="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/1200px-Coca-Cola_logo.svg.png" />
+		<property name="slogan" value="Siente el sabor" />
+		<property name="targetUrl" value="https://www.cocacola.es/es/home/" />
+		<property name="creditCard" value="4679489831381972" />
+	</bean>
+	
+	<bean id="noncomercialbanner01" class="acme.entities.noncomercialbanners.NonComercialBanner">
+		<property name="picture" value="https://www.mercadona.es/web-display-img.png" />
+		<property name="slogan" value="Algo más que palabras" />
+		<property name="targetUrl" value="https://www.mercadona.es" />
+		<property name="jingle" value="https://www.youtube.com/watch?v=ytT6355sDr4" />
+	</bean>
+	
 </beans>
 

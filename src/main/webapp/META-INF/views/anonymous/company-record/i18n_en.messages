@@ -8,15 +8,23 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-anonymous.company-record.form.name = Name:
-anonymous.company-record.form.sector = Sector:
-anonymous.company-record.form.ceo = CEO:
-anonymous.company-record.form.description = Description:
-anonymous.company-record.form.webSite = WebSite:
-anonymous.company-record.form.phone = Phone:
-anonymous.company-record.form.email = Email:
-
-anonymous.company-record.label.name = Name
-anonymous.company-record.label.sector = Sector
-anonymous.company-record.label.ceo = CEO
+anonymous.company-record.label.name = Name:
+anonymous.company-record.label.sector = Sector:
+anonymous.company-record.label.ceo = CEO:
+anonymous.company-record.label.description = Description:
+anonymous.company-record.label.webSite = WebSite:
+anonymous.company-record.label.phone = Phone:
+anonymous.company-record.label.email = Email:
+anonymous.company-record.label.indication = Indication:
+anonymous.company-record.label.star = Stars:
 anonymous.company-record.form.button.return = Return
+
+anonymous.company-record.list.label.name = Name
+anonymous.company-record.list.label.sector = Sector
+anonymous.company-record.list.label.ceo = CEO
+anonymous.company-record.list.label.description = Description
+anonymous.company-record.list.label.webSite = WebSite
+anonymous.company-record.list.label.phone = Phone
+anonymous.company-record.list.label.email = Email
+anonymous.company-record.list.label.indication = Indication
+anonymous.company-record.list.label.star = Stars
