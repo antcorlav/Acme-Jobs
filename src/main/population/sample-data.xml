@@ -168,24 +168,12 @@
 	<property name="bronzeG" value="valorgB"></property> 
 	</bean>
 		<bean id="configuration01" class="acme.entities.configurations.Configuration">
-		<property name="spamWords" >
-			<list>
-				<value> viagra</value>
-				<value> sex</value>
-				<value> cialis</value>
-				<value> hard_core</value>
-				<value> cialis</value>
-				<value> nigeria</value>
-				<value> you’ve won</value>
-				<value> million dollar</value>
-				<value> millon de dolares</value>
-				<value> has ganado</value>
-				<value> explícito</value>
-				<value> sexo</value>
-			</list>
-		</property>	
+		<property name="spamWords" value=" viagra, sex, 
+			cialis, hard_core, cialis, nigeria, you’ve won, million dollar, 
+				millon de dolares, has ganado, explícito, sexo"></property>
 		<property name="spamThreshold" value="1.0"/>
 	</bean>
+	
 
 </beans>
 
