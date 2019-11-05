@@ -1,5 +1,6 @@
 
 
+
     alter table `administrator` 
        drop 
        foreign key FK_2a5vcjo3stlfcwadosjfq49l1;
@@ -116,3 +117,4 @@
     drop table if exists `user_account`;
 
     drop table if exists `hibernate_sequence`;
+

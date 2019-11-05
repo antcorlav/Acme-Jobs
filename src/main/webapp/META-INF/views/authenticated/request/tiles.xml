@@ -8,7 +8,7 @@
 - In keeping with the traditional purpose of furthering education and research, it is
 - the policy of the copyright owner to permit non-commercial use and redistribution of
 - this software. It has been tested carefully, but it is not guaranteed for any particular
-- purposes.  The copyright owner does not solicitud any warranties or representations, nor do
+- purposes.  The copyright owner does not request any warranties or representations, nor do
 - they accept any liabilities with respect to them.
 -->
 
@@ -20,12 +20,12 @@
 
 
 
-	<definition name="authenticated/solicitud/list" extends="master">		
-		<put-attribute name="body" type="template" value="../authenticated/solicitud/list.jsp" />
+	<definition name="authenticated/request/list" extends="master">		
+		<put-attribute name="body" type="template" value="../authenticated/request/list.jsp" />
 	</definition>
 	
-	<definition name="authenticated/solicitud/form" extends="master">		
-		<put-attribute name="body" type="template" value="../authenticated/solicitud/form.jsp" />
+	<definition name="authenticated/request/form" extends="master">		
+		<put-attribute name="body" type="template" value="../authenticated/request/form.jsp" />
 	</definition>
 	
 
