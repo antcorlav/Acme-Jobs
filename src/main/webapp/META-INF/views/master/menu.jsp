@@ -39,6 +39,13 @@
 			
 		<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.list-company-record" action="/anonymous/company-record/list"/>		
+
+		<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.list-comercial-banner" action="/anonymous/comercial-banner/list"/>		
+		
+		<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.list-non-comercial-banner" action="/anonymous/non-comercial-banner/list"/>		
+		
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.anonymousinvestor" access="isAnonymous()">

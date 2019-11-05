@@ -39,6 +39,8 @@ master.menu.anonymous.shout = Shout!
 master.menu.anonymous.list-shout = List Shout!
 master.menu.anonymous.list-announcement = List Announcement
 master.menu.anonymous.list-company-record = List Company Record
+master.menu.anonymous.list-comercial-banner = List Comercial Banner
+master.menu.anonymous.list-non-comercial-banner = List Non Comercial Banner
 
 # master.menu.anonymousinvestor ######################################################
 master.menu.anonymousinvestor = Investor Record
