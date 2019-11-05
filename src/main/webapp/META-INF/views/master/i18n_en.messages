@@ -109,11 +109,11 @@ master.menu.user-account.become-consumer = Become a consumer
 # master.menu.authenticated ####################################################
 master.menu.authenticated = Authenticated
 
-# master.menu.solicitud ####################################################
+# master.menu.request ####################################################
 
-master.menu.solicitud.list-solicitud= List of requests
+master.menu.request.list-request= List of requests
 
-# master.menu.solicitud ####################################################
+# master.menu.request ####################################################
 master.menu.offer.list-offer= List of offers
 
 # master.footer ###############################################################

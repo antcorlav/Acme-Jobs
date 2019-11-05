@@ -47,9 +47,9 @@
 
     drop table if exists `provider`;
 
-    drop table if exists `shout`;
+    drop table if exists `request`;
 
-    drop table if exists `solicitud`;
+    drop table if exists `shout`;
 
     drop table if exists `user_account`;
 
