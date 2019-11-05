@@ -39,6 +39,8 @@ master.menu.anonymous.shout = Grito
 master.menu.anonymous.list-shout = Lista de gritos 
 master.menu.anonymous.list-announcement = Lista de Anuncios
 master.menu.anonymous.list-company-record = Lista de Compañias
+master.menu.anonymous.list-comercial-banner = Lista de Banner Comerciales
+master.menu.anonymous.list-non-comercial-banner = Lista de Banner No Comerciales
 
 # master.menu.authenticatedannoun ######################################################
 master.menu.authenticatedannoun = Anuncio
