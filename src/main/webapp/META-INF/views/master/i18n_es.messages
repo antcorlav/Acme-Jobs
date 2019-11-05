@@ -42,10 +42,22 @@ master.menu.anonymous.list-company-record = Lista de Compañias
 master.menu.anonymous.list-comercial-banner = Lista de Banner Comerciales
 master.menu.anonymous.list-non-comercial-banner = Lista de Banner No Comerciales
 
+# master.menu.authenticatedannoun ######################################################
+master.menu.authenticatedannoun = Anuncio
+master.menu.authenticatedannoun.announcement = Anuncios
+master.menu.authenticatedannoun.list-announcement = Lista de anuncios
+
+# master.menu.anonymouscompany ######################################################
+master.menu.anonymouscompany = Records de compañías
+master.menu.anonymouscompany.investor-record = Records
+master.menu.anonymouscompany.list-company-record = Lista de compañías
+master.menu.anonymouscompany.listtop-company-record = Compañías 5 estrellas
+
 # master.menu.anonymousinvestor ######################################################
 master.menu.anonymousinvestor = Records de inversores
 master.menu.anonymousinvestor.investor-record = Records
 master.menu.anonymousinvestor.list-investor-record = Lista de Records
+master.menu.anonymousinvestor.listtop-investor-record = Inversores 5 estrellas
 
 # master.menu.administrator ###################################################
 

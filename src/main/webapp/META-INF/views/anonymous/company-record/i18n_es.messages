@@ -8,15 +8,23 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-anonymous.company-record.form.name = Nombre:
-anonymous.company-record.form.sector = Sector:
-anonymous.company-record.form.ceo = CEO:
-anonymous.company-record.form.description = Descripcion:
-anonymous.company-record.form.webSite = WebSite:
-anonymous.company-record.form.phone = Telefono:
-anonymous.company-record.form.email = Email:
-
-anonymous.company-record.label.name = Nombre
-anonymous.company-record.label.sector = Sector
-anonymous.company-record.label.ceo = CEO
+anonymous.company-record.label.name = Nombre:
+anonymous.company-record.label.sector = Sector:
+anonymous.company-record.label.ceo = CEO:
+anonymous.company-record.label.description = Descripcion:
+anonymous.company-record.label.webSite = Sitio Web:
+anonymous.company-record.label.phone = Telefono:
+anonymous.company-record.label.email = Email:
+anonymous.company-record.label.indication = Indicación:
+anonymous.company-record.label.star = Estrellas:
 anonymous.company-record.form.button.return = Volver
+
+anonymous.company-record.list.label.name = Nombre
+anonymous.company-record.list.label.sector = Sector
+anonymous.company-record.list.label.ceo = CEO
+anonymous.company-record.list.label.description = Descripcion
+anonymous.company-record.list.label.webSite = Sitio Web
+anonymous.company-record.list.label.phone = Telefono
+anonymous.company-record.list.label.email = Email
+anonymous.company-record.list.label.indication = Indicación
+anonymous.company-record.list.label.star = Estrellas
