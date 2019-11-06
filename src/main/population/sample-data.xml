@@ -107,7 +107,7 @@
 <property name= "rewardMin" value= "1050.0€"/>
 </bean>
 
-<bean id = "request01" class = "acme.entities.solicitudes.Solicitud">
+<bean id = "request01" class = "acme.entities.requests.Request">
 <property name= "title" value= "Request001"/>
 <property name= "text" value= "Viva mi beti"/>
 <property name= "moment" value= "2019/09/09 10:00"/>
@@ -119,7 +119,7 @@
 
 </bean>
 
-<bean id = "request02" class = "acme.entities.solicitudes.Solicitud">
+<bean id = "request02" class = "acme.entities.requests.Request">
 <property name= "title" value= "Request002"/>
 <property name= "text" value= "Viva mi beti 2.0"/>
 <property name= "moment" value= "2019/09/09 10:00"/>
@@ -137,10 +137,10 @@
 		<property name="ceo" value="Daniel" />
 		<property name="description" value="This is a videogame company" />
 		<property name="webSite" value="https://www.nintendo.es" />
-		<property name="phone" value="+361 (5123) 456127" />
+		<property name="phone" value="+1 (5123) 456127" />
 		<property name ="email" value="gmail@hotmail.es" />
 		<property name="indication" value="true" />
-		<property name="star" value="3"/>
+		<property name="star" value="5"/>
 	</bean>
 
 	<bean id="companyrecord02" class="acme.entities.companyrecords.CompanyRecord">
@@ -160,12 +160,12 @@
 	<property name="title" value="titulo1"></property> 
 	<property name="description" value="description1"></property> 
 	<property name="moment" value="2020/02/25 00:00"></property> 
-	<property name="goldR" value="valorrO"></property> 
-	<property name="silverR" value="valorrP"></property> 
-	<property name="bronzeR" value="valorrB"></property> 
-	<property name="goldG" value="valorgO"></property> 
-	<property name="silverG" value="valorgP"></property> 
-	<property name="bronzeG" value="valorgB"></property> 
+	<property name="goldReward" value="1500.0€"></property> 
+	<property name="silverReward" value="1500.0€"></property> 
+	<property name="bronzeReward" value="1500.0€"></property> 
+	<property name="goldGoal" value="valorgO"></property> 
+	<property name="silverGoal" value="valorgP"></property> 
+	<property name="bronzeGoal" value="valorgB"></property> 
 	</bean>
 		<bean id="configuration01" class="acme.entities.configurations.Configuration">
 		<property name="spamWords" value=" viagra, sex, 
@@ -175,5 +175,19 @@
 	</bean>
 	
 
+	<bean id="comercialbanner01" class="acme.entities.comercialbanners.ComercialBanner">
+		<property name="picture" value="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/1200px-Coca-Cola_logo.svg.png" />
+		<property name="slogan" value="Siente el sabor" />
+		<property name="targetUrl" value="https://www.cocacola.es/es/home/" />
+		<property name="creditCard" value="4679489831381972" />
+	</bean>
+	
+	<bean id="noncomercialbanner01" class="acme.entities.noncomercialbanners.NonComercialBanner">
+		<property name="picture" value="https://www.mercadona.es/web-display-img.png" />
+		<property name="slogan" value="Algo más que palabras" />
+		<property name="targetUrl" value="https://www.mercadona.es" />
+		<property name="jingle" value="https://www.youtube.com/watch?v=ytT6355sDr4" />
+	</bean>
+	
 </beans>
 

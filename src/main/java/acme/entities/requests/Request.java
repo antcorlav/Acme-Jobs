@@ -1,8 +1,9 @@
 
-package acme.entities.solicitudes;
+package acme.entities.requests;
 
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -19,7 +20,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Solicitud extends DomainEntity {
+public class Request extends DomainEntity {
 
 	public static final long	serialVersionUID	= 1L;
 
@@ -34,14 +35,15 @@ public class Solicitud extends DomainEntity {
 	private Date				moment;
 
 	@Temporal(TemporalType.TIMESTAMP)
-	//@Future
+
 	private Date				deadline;
 
 	@Valid
 	private Money				reward;
 
 	@NotBlank
-	@Pattern(regexp = "^R[a-zA-Z]{4}-[0-9]{5}")//"RXXXX-99999"
+	@Pattern(regexp = "^R[a-zA-Z]{4}-[0-9]{5}$")//"RXXXX-99999"
+	@Column(unique = true)
 	private String				ticker;
 
 }

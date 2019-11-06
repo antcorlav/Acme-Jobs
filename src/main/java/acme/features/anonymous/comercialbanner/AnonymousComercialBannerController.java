@@ -1,5 +1,5 @@
 
-package acme.features.authenticated.solicitud;
+package acme.features.anonymous.comercialbanner;
 
 import javax.annotation.PostConstruct;
 
@@ -7,20 +7,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import acme.entities.solicitudes.Solicitud;
+import acme.entities.comercialbanners.ComercialBanner;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
-import acme.framework.entities.Authenticated;
+import acme.framework.entities.Anonymous;
 
 @Controller
-@RequestMapping("/authenticated/solicitud/")
-public class AuthenticatedSolicitudController extends AbstractController<Authenticated, Solicitud> {
+@RequestMapping("/anonymous/comercial-banner/")
+public class AnonymousComercialBannerController extends AbstractController<Anonymous, ComercialBanner> {
 
 	@Autowired
-	private AuthenticatedSolicitudListService	listService;
+	AnonymousComercialBannerListService	listService;
 
 	@Autowired
-	private AuthenticatedSolicitudShowService	showService;
+	AnonymousComercialBannerShowService	showService;
 
 
 	@PostConstruct
@@ -28,5 +28,4 @@ public class AuthenticatedSolicitudController extends AbstractController<Authent
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
 		super.addBasicCommand(BasicCommand.SHOW, this.showService);
 	}
-
 }

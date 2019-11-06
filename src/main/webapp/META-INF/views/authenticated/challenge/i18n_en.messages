@@ -11,19 +11,19 @@
 authenticated.challenge.list.label.moment = moment
 authenticated.challenge.list.label.description = description 
 authenticated.challenge.list.label.title = title
-authenticated.challenge.list.label.goldR = reward for gold
-authenticated.challenge.list.label.silverR = reward for silver
-authenticated.challenge.list.label.bronzeR = reward for bronze
+authenticated.challenge.list.label.goldReward = reward for gold
+authenticated.challenge.list.label.silverReward = reward for silver
+authenticated.challenge.list.label.bronzeReward = reward for bronze
 
 
 
 authenticated.challenge.form.label.moment = moment
 authenticated.challenge.form.label.description = description
 authenticated.challenge.form.label.title = title
-authenticated.challenge.form.label.goldR = reward for gold
-authenticated.challenge.form.label.silverR = reward for silver
-authenticated.challenge.form.label.bronzeR = reward for bronze
-authenticated.challenge.form.label.goldG = goal for gold
-authenticated.challenge.form.label.silverG = goal for silver
-authenticated.challenge.form.label.bronzeG = goal for bronze
+authenticated.challenge.form.label.goldReward = reward for gold
+authenticated.challenge.form.label.silverReward = reward for silver
+authenticated.challenge.form.label.bronzeReward = reward for bronze
+authenticated.challenge.form.label.goldGoal = goal for gold
+authenticated.challenge.form.label.silverGoal = goal for silver
+authenticated.challenge.form.label.bronzeGoal = goal for bronze
 authenticated.challenge.form.button.return = return
