@@ -390,8 +390,8 @@ Challenge
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Configuration
 --
-+ spamWords: Collection&lt;String&gt; (@ElementCollection(fetch = FetchType.EAGER))
-+ moment: Double (@DecimalMin(value = "1.0"),@DecimalMax(value = "100.0"))
++ spamWords: String (NotBlank)
++ moment: Double (DecimalMin(value = "1.0"), DecimalMax(value = "100.0"))
 </panel_attributes>
     <additional_attributes/>
   </element>

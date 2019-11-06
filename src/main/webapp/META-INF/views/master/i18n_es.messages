@@ -65,6 +65,7 @@ master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 master.menu.administrator.configuration = Lista de Spam
+master.menu.administrator.dashboard = DashBoard
 
 # master.menu.authenticatedannoun ######################################################
 master.menu.authenticatedannoun = Anuncios
