@@ -23,12 +23,12 @@ public interface AdministratorEstadisticaRepository extends AbstractRepository {
 	@Query("select count(*) from InvestorRecord")
 	Double findInvestorRecord();
 
-	@Query("select o.rewardMin from Offer o")
+	@Query("select o.rewardMin from Offer o where datediff(current_date(), o.deadline)<0 ")
 	List<Money> minOffer();
 
-	@Query("select o.rewardMax from Offer o")
+	@Query("select o.rewardMax from Offer o where datediff(current_date(), o.deadline)<0")
 	List<Money> maxOffer();
 
-	@Query("select s.reward from Request s")
+	@Query("select s.reward from Solicitud s where datediff(current_date(), s.deadline)<0")
 	List<Money> findRequest();
 }
