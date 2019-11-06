@@ -124,10 +124,13 @@ public class AdministratorEstadisticaListService implements AbstractListService<
 		maxR.setValor(maxVR);
 
 		res.add(maxR);
-
+		Double s = 0.;
+		if (todosR.size() != 0) {
+			s = sumaR / todosR.size();
+		}
 		Estadistica avgR = new Estadistica();
 		avgR.setNombre("Average of reward's Request");
-		avgR.setValor(sumaR / todosR.size());
+		avgR.setValor(s);
 
 		res.add(avgR);
 
@@ -143,12 +146,19 @@ public class AdministratorEstadisticaListService implements AbstractListService<
 
 		t2 = Math.sqrt(t2);
 
+		if (c2 == 0) {
+			t2 = 0.;
+		}
+
 		Estadistica sdR = new Estadistica();
 		sdR.setNombre("Standard derivation of reward's Request");
 		sdR.setValor(t2);
 
 		res.add(sdR);
 
+		if (c == 0) {
+			t = 0.;
+		}
 		Estadistica sdO = new Estadistica();
 		sdO.setNombre("Standard derivation of reward's Offers");
 		sdO.setValor(t);
