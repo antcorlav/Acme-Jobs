@@ -3,6 +3,7 @@ package acme.entities.offers;
 
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -42,7 +43,8 @@ public class Offer extends DomainEntity {
 	private Money				rewardMin;
 
 	@NotBlank
-	@Pattern(regexp = "^O[a-zA-Z]{4}-[0-9]{5}")
+	@Pattern(regexp = "^O[a-zA-Z]{4}-[0-9]{5}$")
+	@Column(unique = true)
 	private String				ticker;
 
 }

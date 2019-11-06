@@ -8,13 +8,11 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-anonymous.announcement.label.title = Title:
-anonymous.announcement.label.moment = Moment:
-anonymous.announcement.label.moreInfo = More Info:
-anonymous.announcement.label.text = Text:
-anonymous.announcement.form.button.return = Return
+anonymous.comercial-banner.form.picture = Picture:
+anonymous.comercial-banner.form.slogan = Slogan:
 
-anonymous.announcement.list.label.title = Title
-anonymous.announcement.list.label.moment = Moment
-anonymous.announcement.list.label.moreInfo = More Info
-anonymous.announcement.list.label.text = Text
+anonymous.comercial-banner.label.picture = Picture
+anonymous.comercial-banner.label.slogan = Slogan
+anonymous.comercial-banner.label.targetUrl = Target URL
+anonymous.comercial-banner.label.creditCard = Credit Card
+anonymous.comercial-banner.form.button.return = Return

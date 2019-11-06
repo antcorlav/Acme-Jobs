@@ -34,21 +34,42 @@
 		 <acme:menu-separator />
 			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create" />
 			<acme:menu-suboption code="master.menu.anonymous.list-shout" action="/anonymous/shout/list" />		
+
 		<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.list-announcement" action="/anonymous/announcement/list"/>	
 			
 		<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.list-company-record" action="/anonymous/company-record/list"/>		
+
+		<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.list-comercial-banner" action="/anonymous/comercial-banner/list"/>		
+		
+		<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.list-non-comercial-banner" action="/anonymous/non-comercial-banner/list"/>		
+
+      
 		</acme:menu-option>
 		
-		<acme:menu-option code="master.menu.anonymousinvestor" access="isAnonymous()">
+		<acme:menu-option code="master.menu.anonymousannoun" access="isAnonymous()">
+			<acme:menu-suboption code="master.menu.anonymousannoun.list-announcement" action="/anonymous/announcement/list" />
+		</acme:menu-option>
 		
-			<acme:menu-suboption code="master.menu.anonymousinvestor.list-investor-record" action="/anonymous/investor-record/list" />
+		<acme:menu-option code="master.menu.anonymouscompany" access="isAnonymous()">
+		
+			<acme:menu-suboption code="master.menu.anonymouscompany.list-company-record" action="/anonymous/company-record/list" />
+			<acme:menu-suboption code="master.menu.anonymouscompany.listtop-company-record" action="/anonymous/company-record/stars" />
 			
 		</acme:menu-option>
   
+		<acme:menu-option code="master.menu.anonymousinvestor" access="isAnonymous()">
+		
+			<acme:menu-suboption code="master.menu.anonymousinvestor.list-investor-record" action="/anonymous/investor-record/list" />
+			<acme:menu-suboption code="master.menu.anonymousinvestor.listtop-investor-record" action="/anonymous/investor-record/stars" />
+			
+		</acme:menu-option>
+		
   	<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
-		<acme:menu-suboption code="master.menu.solicitud.list-solicitud" action="/authenticated/solicitud/list" />		
+		<acme:menu-suboption code="master.menu.request.list-request" action="/authenticated/request/list" />		
 		<acme:menu-suboption code="master.menu.offer.list-offer" action="/authenticated/offer/list" />		
 		
 				</acme:menu-option>
