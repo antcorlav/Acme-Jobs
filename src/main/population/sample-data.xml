@@ -160,12 +160,12 @@
 	<property name="title" value="titulo1"></property> 
 	<property name="description" value="description1"></property> 
 	<property name="moment" value="2020/02/25 00:00"></property> 
-	<property name="goldR" value="valorrO"></property> 
-	<property name="silverR" value="valorrP"></property> 
-	<property name="bronzeR" value="valorrB"></property> 
-	<property name="goldG" value="valorgO"></property> 
-	<property name="silverG" value="valorgP"></property> 
-	<property name="bronzeG" value="valorgB"></property> 
+	<property name="goldReward" value="1500.0€"></property> 
+	<property name="silverReward" value="1500.0€"></property> 
+	<property name="bronzeReward" value="1500.0€"></property> 
+	<property name="goldGoal" value="valorgO"></property> 
+	<property name="silverGoal" value="valorgP"></property> 
+	<property name="bronzeGoal" value="valorgB"></property> 
 	</bean>
 		<bean id="configuration01" class="acme.entities.configurations.Configuration">
 		<property name="spamWords" >
