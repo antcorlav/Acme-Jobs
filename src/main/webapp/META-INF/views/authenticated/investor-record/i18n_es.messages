@@ -17,5 +17,3 @@ authenticated.investor-record.form.button.return = Volver
 
 authenticated.investor-record.list.label.investor = Inversor
 authenticated.investor-record.list.label.sector = Sector
-authenticated.investor-record.list.label.statement = Declaración
-authenticated.investor-record.list.label.star = Calificación

@@ -45,15 +45,12 @@ master.menu.anonymouscompany.listtop-company-record = Tops of Company
 
 master.menu.anonymous.list-announcement = List Announcement
 master.menu.anonymous.list-company-record = List Company Record
+master.menu.anonymous.listtop-company-record = List Top Company Record
+master.menu.anonymous.list-investor-record = List Investor Record
+master.menu.anonymous.listtop-investor-record = Tops of Investor
 master.menu.anonymous.list-comercial-banner = List Comercial Banner
 master.menu.anonymous.list-non-comercial-banner = List Non Comercial Banner
 
-
-# master.menu.anonymousinvestor ######################################################
-master.menu.anonymousinvestor = Investor Record
-master.menu.anonymousinvestor.investor-record = Records
-master.menu.anonymousinvestor.list-investor-record = List Investor Record
-master.menu.anonymousinvestor.listtop-investor-record = Tops of Investor
 
 # master.menu.administrator ###################################################
 
@@ -62,30 +59,8 @@ master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
 master.menu.administrator.configuration = Spam List
 master.menu.administrator.dashboard = Dashboard
-
-# master.menu.authenticatedannoun ######################################################
-master.menu.authenticatedannoun = Announcement
-master.menu.authenticatedannoun.announcement = Announcements
-master.menu.authenticatedannoun.list-announcement = List of announcements
-
-# master.menu.administratorannoun ######################################################
-master.menu.administratorannoun = Announcement(All)
-master.menu.administratorannoun.announcement =All announcement
-master.menu.administratorannoun.list-announcement = List of all announcement
-
-# master.menu.authenticatedcompany ######################################################
-master.menu.authenticatedcompany = Companies
-master.menu.authenticatedcompany.company-record = Companies
-master.menu.authenticatedcompany.list-company-record = List of Companies
-
-# master.menu.authenticatedinvestor ######################################################
-master.menu.authenticatedinvestor = Investor Record
-master.menu.authenticatedinvestor.investor-record = Records
-master.menu.authenticatedinvestor.list-investor-record = List Investor Record
-
-# master.menu.authenticatedchallenge ######################################################
-master.menu.authenticatedchallenge = Challenge
-master.menu.authenticated.list-challenge= List of challenges
+master.menu.administrator.estadistica = Statistics
+master.menu.administrator.list-announcement = List of all announcement
 
 # master.menu.provider ########################################################
 
@@ -119,13 +94,12 @@ master.menu.user-account.become-consumer = Become a consumer
 
 # master.menu.authenticated ####################################################
 master.menu.authenticated = Authenticated
-
-# master.menu.solicitud ####################################################
-
-master.menu.solicitud.list-solicitud= List of requests
-
-# master.menu.solicitud ####################################################
-master.menu.offer.list-offer= List of offers
+master.menu.authenticated.request.list-request= List of requests
+master.menu.authenticated.offer.list-offer= List of offers
+master.menu.authenticated.list-announcement = List of announcements
+master.menu.authenticated.list-company-record = List of Companies
+master.menu.authenticated.list-investor-record = List Investor Record
+master.menu.authenticated.list-challenge= List of challenges
 
 # master.footer ###############################################################
 

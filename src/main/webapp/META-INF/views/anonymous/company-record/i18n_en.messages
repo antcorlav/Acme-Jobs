@@ -21,10 +21,4 @@ anonymous.company-record.form.button.return = Return
 
 anonymous.company-record.list.label.name = Name
 anonymous.company-record.list.label.sector = Sector
-anonymous.company-record.list.label.ceo = CEO
-anonymous.company-record.list.label.description = Description
 anonymous.company-record.list.label.webSite = WebSite
-anonymous.company-record.list.label.phone = Phone
-anonymous.company-record.list.label.email = Email
-anonymous.company-record.list.label.indication = Indication
-anonymous.company-record.list.label.star = Stars

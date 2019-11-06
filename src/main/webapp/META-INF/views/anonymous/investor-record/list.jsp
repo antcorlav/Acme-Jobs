@@ -6,7 +6,5 @@
 <acme:list>
 <acme:list-column code="anonymous.investor-record.list.label.investor" path="investor" width="20%"/>
 <acme:list-column code="anonymous.investor-record.list.label.sector" path="sector" width="30%"/>
-<acme:list-column code="anonymous.investor-record.list.label.statement" path="statement" width="30%"/>
-<acme:list-column code="anonymous.investor-record.list.label.star" path="star" width="20%"/>
 
 </acme:list>

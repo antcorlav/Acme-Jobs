@@ -17,5 +17,3 @@ authenticated.investor-record.form.button.return = Return
 
 authenticated.investor-record.list.label.investor = Investor
 authenticated.investor-record.list.label.sector = Sector
-authenticated.investor-record.list.label.statement = Statement
-authenticated.investor-record.list.label.star = Calification

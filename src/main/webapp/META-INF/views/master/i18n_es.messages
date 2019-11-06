@@ -37,8 +37,12 @@ master.menu.anonymous.favourite-linkD = Enlace de dansangar2
 master.menu.anonymous.favourite-linkAC = Enlace de Antcorlav
 master.menu.anonymous.shout = Grito
 master.menu.anonymous.list-shout = Lista de gritos 
+
 master.menu.anonymous.list-announcement = Lista de Anuncios
 master.menu.anonymous.list-company-record = Lista de Compañias
+master.menu.anonymous.listtop-company-record = Mejores Compañías
+master.menu.anonymous.list-investor-record = Lista de Inversores
+master.menu.anonymous.listtop-investor-record = Mejores Inversores
 master.menu.anonymous.list-comercial-banner = Lista de Banner Comerciales
 master.menu.anonymous.list-non-comercial-banner = Lista de Banner No Comerciales
 
@@ -47,17 +51,6 @@ master.menu.authenticatedannoun = Anuncio
 master.menu.authenticatedannoun.announcement = Anuncios
 master.menu.authenticatedannoun.list-announcement = Lista de anuncios
 
-# master.menu.anonymouscompany ######################################################
-master.menu.anonymouscompany = Records de compañías
-master.menu.anonymouscompany.investor-record = Records
-master.menu.anonymouscompany.list-company-record = Lista de compañías
-master.menu.anonymouscompany.listtop-company-record = Compañías 5 estrellas
-
-# master.menu.anonymousinvestor ######################################################
-master.menu.anonymousinvestor = Records de inversores
-master.menu.anonymousinvestor.investor-record = Records
-master.menu.anonymousinvestor.list-investor-record = Lista de Records
-master.menu.anonymousinvestor.listtop-investor-record = Inversores 5 estrellas
 
 # master.menu.administrator ###################################################
 
@@ -66,30 +59,9 @@ master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 master.menu.administrator.configuration = Lista de Spam
 master.menu.administrator.dashboard = DashBoard
+master.menu.administrator.estadistica = Estadistica
+master.menu.administrator.list-announcement = Lista de todos anuncios
 
-# master.menu.authenticatedannoun ######################################################
-master.menu.authenticatedannoun = Anuncios
-master.menu.authenticatedannoun.announcement = Anuncios
-master.menu.authenticatedannoun.list-announcement = Lista de anuncios
-
-# master.menu.administratorannoun ######################################################
-master.menu.administratorannoun = Anuncios(Todos)
-master.menu.administratorannoun.announcement =todos los anuncios
-master.menu.administratorannoun.list-announcement = Lista de todos anuncios
-
-# master.menu.authenticatedcompany ######################################################
-master.menu.authenticatedcompany = Compañías
-master.menu.authenticatedcompany.company-record = Compañías
-master.menu.authenticatedcompany.list-company-record = Lista de Compañías
-
-# master.menu.authenticatedinvestor ######################################################
-master.menu.authenticatedinvestor = Records de inversores
-master.menu.authenticatedinvestor.investor-record = Records
-master.menu.authenticatedinvestor.list-investor-record = Lista de Records
-
-# master.menu.authenticatedchallenge ######################################################
-master.menu.authenticatedchallenge = Retos
-master.menu.authenticated.list-challenge= Lista de Retos
 
 # master.menu.provider ########################################################
 
@@ -122,13 +94,12 @@ master.menu.user-account.become-consumer = Hazte consumidor
 
 # master.menu.authenticated ####################################################
 master.menu.authenticated = Usuario identificado
-
-
-# master.menu.request ####################################################
-master.menu.request.list-request = Lista de request
-
-# master.menu.request ####################################################
-master.menu.offer.list-offer= Lista de ofertas
+master.menu.authenticated.request.list-request= Lista de Solicitudes
+master.menu.authenticated.offer.list-offer= Lista de ofertas
+master.menu.authenticated.list-announcement = Lista de anuncios
+master.menu.authenticated.list-company-record = Lista de Compañías
+master.menu.authenticated.list-investor-record =  Lista de Records
+master.menu.authenticated.list-challenge= Lista de Retos
 
 ﻿# master.footer ###############################################################
 

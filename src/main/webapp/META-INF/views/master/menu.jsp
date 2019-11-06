@@ -40,37 +40,40 @@
 			
 		<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.list-company-record" action="/anonymous/company-record/list"/>		
-
+			<acme:menu-suboption code="master.menu.anonymous.listtop-company-record" action="/anonymous/company-record/stars" />
+		
+		<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.list-investor-record" action="/anonymous/investor-record/list" />
+			<acme:menu-suboption code="master.menu.anonymous.listtop-investor-record" action="/anonymous/investor-record/stars" />
+			
+		
 		<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.list-comercial-banner" action="/anonymous/comercial-banner/list"/>		
-		
+			
 		<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.list-non-comercial-banner" action="/anonymous/non-comercial-banner/list"/>		
 
       
 		</acme:menu-option>
 		
-		<acme:menu-option code="master.menu.anonymousannoun" access="isAnonymous()">
-			<acme:menu-suboption code="master.menu.anonymousannoun.list-announcement" action="/anonymous/announcement/list" />
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.anonymouscompany" access="isAnonymous()">
-		
-			<acme:menu-suboption code="master.menu.anonymouscompany.list-company-record" action="/anonymous/company-record/list" />
-			<acme:menu-suboption code="master.menu.anonymouscompany.listtop-company-record" action="/anonymous/company-record/stars" />
-			
-		</acme:menu-option>
-  
-		<acme:menu-option code="master.menu.anonymousinvestor" access="isAnonymous()">
-		
-			<acme:menu-suboption code="master.menu.anonymousinvestor.list-investor-record" action="/anonymous/investor-record/list" />
-			<acme:menu-suboption code="master.menu.anonymousinvestor.listtop-investor-record" action="/anonymous/investor-record/stars" />
-			
-		</acme:menu-option>
-		
   	<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
-		<acme:menu-suboption code="master.menu.request.list-request" action="/authenticated/request/list" />		
-		<acme:menu-suboption code="master.menu.offer.list-offer" action="/authenticated/offer/list" />		
+		<acme:menu-suboption code="master.menu.authenticated.request.list-request" action="/authenticated/request/list" />		
+			<acme:menu-separator/>
+		
+		<acme:menu-suboption code="master.menu.authenticated.offer.list-offer" action="/authenticated/offer/list" />	
+			<acme:menu-separator/>
+		
+		<acme:menu-suboption code="master.menu.authenticated.list-announcement" action="/authenticated/announcement/list" />
+			<acme:menu-separator/>
+		
+		<acme:menu-suboption code="master.menu.authenticated.list-company-record" action="/authenticated/company-record/list" />
+			<acme:menu-separator/>	
+		
+		<acme:menu-suboption code="master.menu.authenticated.list-investor-record" action="/authenticated/investor-record/list" />
+			<acme:menu-separator/>
+		
+		<acme:menu-suboption code="master.menu.authenticated.list-challenge" action="/authenticated/challenge/list"/>
+			<acme:menu-separator/>
 		
 				</acme:menu-option>
 
@@ -87,6 +90,8 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.estadistica" action="/administrator/estadistica/list"/>
 			
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.list-announcement" action="/administrator/announcement/list" />
 
 		</acme:menu-option>
 
@@ -99,26 +104,6 @@
 			<acme:menu-suboption code="master.menu.consumer.favourite-linkA" action="https://www.youtube.com/?hl=es&gl=ES"/> <%--albcorare26--%>
 			<acme:menu-suboption code="master.menu.consumer.favourite-linkD" action="https://smashbros.com/es_ES/"/> <%--dnsangar2--%>
 			<acme:menu-suboption code="master.menu.consumer.favourite-linkAC" action="https://open.spotify.com/browse/featured"/> <%--antcorlav--%>
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.authenticatedannoun" access="isAuthenticated()">
-			<acme:menu-suboption code="master.menu.authenticatedannoun.list-announcement" action="/authenticated/announcement/list" />
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.authenticatedcompany" access="isAuthenticated()">
-			<acme:menu-suboption code="master.menu.authenticatedcompany.list-company-record" action="/authenticated/company-record/list" />
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.authenticatedinvestor" access="isAuthenticated()">
-			<acme:menu-suboption code="master.menu.authenticatedinvestor.list-investor-record" action="/authenticated/investor-record/list" />
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.authenticatedchallenge" access="isAuthenticated()">
-			<acme:menu-suboption code="master.menu.authenticated.list-challenge" action="/authenticated/challenge/list"/>
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.administratorannoun" access="hasRole('Administrator')">
-			<acme:menu-suboption code="master.menu.administratorannoun.list-announcement" action="/administrator/announcement/list" />
 		</acme:menu-option>
 
 	</acme:menu-left>

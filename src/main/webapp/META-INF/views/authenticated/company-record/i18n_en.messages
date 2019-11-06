@@ -21,10 +21,4 @@ authenticated.company-record.form.button.return = Return
 
 authenticated.company-record.list.label.name = Name
 authenticated.company-record.list.label.sector = Sector
-authenticated.company-record.list.label.ceo = CEO
-authenticated.company-record.list.label.description = Description
 authenticated.company-record.list.label.webSite = WebSite
-authenticated.company-record.list.label.phone = Phone
-authenticated.company-record.list.label.email = Email
-authenticated.company-record.list.label.indication = Indication
-authenticated.company-record.list.label.star = Stars
