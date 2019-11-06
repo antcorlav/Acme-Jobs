@@ -29,6 +29,6 @@ public interface AdministratorEstadisticaRepository extends AbstractRepository {
 	@Query("select o.rewardMax from Offer o")
 	List<Money> maxOffer();
 
-	@Query("select s.reward from Solicitud s")
+	@Query("select s.reward from Request s")
 	List<Money> findRequest();
 }
